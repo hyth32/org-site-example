@@ -81,6 +81,7 @@ export default function Contacts() {
                 value={formData.name}
                 onChange={handleChange}
                 error={errors.name}
+                placeholder="Введите ваше имя"
                 required
               />
 
@@ -92,6 +93,7 @@ export default function Contacts() {
                 value={formData.email}
                 onChange={handleChange}
                 error={errors.email}
+                placeholder="Введите ваш email"
                 required
               />
 
@@ -104,6 +106,7 @@ export default function Contacts() {
                 onChange={handleChange}
                 error={errors.phone}
                 required
+                placeholder="Введите ваш телефон"
               />
 
               <Textarea
@@ -115,6 +118,7 @@ export default function Contacts() {
                 onChange={handleChange}
                 error={errors.message}
                 required
+                placeholder="Введите ваше сообщение"
               />
 
               <div>
